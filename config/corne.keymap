@@ -22,6 +22,16 @@
             bindings = <&kp UNDER>;
             key-positions = <21 22>;
         };
+
+        langKREN {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <32 33>;
+        };
+
+        langJP {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <33 34>;
+        };
     };
 
     keymap {
@@ -71,7 +81,7 @@
 &kp LG(TAB)  &kp HOME    &kp UP_ARROW  &kp END       &kp LC(TAB)      &kp LA(TAB)    &trans     &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp LEFT_BRACE  &kp RIGHT_BRACE
 &trans       &kp LEFT    &kp DOWN      &kp RIGHT     &kp LC(LS(TAB))  &trans         &kp MINUS  &kp DLLR  &kp PRCNT        &kp CARET  &kp LBKT        &kp RIGHT_BRACKET
 &kp LSHFT    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &trans         &kp TILDE  &kp EXCL  &kp AT           &kp HASH   &kp LPAR        &kp RIGHT_PARENTHESIS
-                                       &trans        &mkp LCLK        &mkp RCLK      &kp RET    &trans    &kp RALT
+                                       &trans        &mkp LCLK        &mkp RCLK      &kp RET    &trans    &kp LA(GRAVE)
             >;
         };
 
