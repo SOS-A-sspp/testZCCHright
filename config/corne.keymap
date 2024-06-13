@@ -34,7 +34,7 @@
         };
 
         bkslash {
-            bindings = <&kp NON_US_BACKSLASH>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <9 22>;
         };
 
@@ -75,7 +75,7 @@
 &kp ESC    &kp HOME   &kp UP_ARROW    &kp END    &kp PLUS              &kp MINUS        &kp BACKSPACE  &kp N7        &kp N8        &kp N9        &kp N0  &kp DEL
 &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp KP_ASTERISK       &kp KP_DIVIDE    &kp TILDE      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
 &kp LSHFT  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)             &kp EQUAL        &kp GRAVE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp ENTER
-                                      &kp LGUI   &mt LEFT_SHIFT SPACE  &kp ENTER        &mkp LCLK      &mkp RCLK     &kp DEL
+                                      &kp LGUI   &mt LEFT_SHIFT SPACE  &kp ENTER        &mkp LCLK      &mkp RCLK     &kp GLOBE
             >;
         };
 
@@ -90,17 +90,17 @@
             bindings = <
 &kp LG(TAB)  &kp HOME      &kp UP_ARROW  &kp END       &kp LC(TAB)      &kp LA(TAB)    &kp BACKSPACE  &kp AMPS       &kp KP_MULTIPLY  &kp LPAR   &kp LEFT_BRACE  &kp RIGHT_BRACE
 &trans       &kp LEFT      &kp DOWN      &kp RIGHT     &kp LC(LS(TAB))  &trans         &kp MINUS      &kp DLLR       &kp PRCNT        &kp CARET  &kp LBKT        &kp RIGHT_BRACKET
-&kp LSHFT    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR       &trans         &kp TILDE      &kp EXCL       &kp AT           &kp HASH   &kp LPAR        &kp RIGHT_PARENTHESIS
+&kp LSHFT    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans           &trans         &kp TILDE      &kp EXCL       &kp AT           &kp HASH   &kp LPAR        &kp RIGHT_PARENTHESIS
                                          &trans        &mkp LCLK        &mkp RCLK      &kp RET        &kp RIGHT_ALT  &kp LA(GRAVE)
             >;
         };
 
         layer_3 {
             bindings = <
-&kp C_SLEEP  &kp HOME        &kp UP    &kp END    &trans        &kp PG_UP       &kp PG_UP       &kp F7            &kp F8      &kp F9  &kp F10  &kp F13
-&trans       &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans        &kp PG_DN       &kp PG_DN       &kp F4            &kp F5      &kp F6  &kp F11  &kp F14
-&trans       &trans          &trans    &trans     &kp C_VOL_DN  &kp C_VOL_UP    &trans          &kp F1            &kp F2      &kp F3  &kp F12  &kp F15
-                                       &trans     &mkp LCLK     &kp ENTER       &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT
+&kp C_SLEEP  &kp HOME        &kp UP        &kp END       &trans        &kp PG_UP       &kp PG_UP       &kp F7            &kp F8      &kp F9  &kp F10  &kp F13
+&trans       &kp LEFT_ARROW  &kp DOWN      &kp RIGHT     &trans        &kp PG_DN       &kp PG_DN       &kp F4            &kp F5      &kp F6  &kp F11  &kp F14
+&trans       &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &kp C_VOL_DN  &kp C_VOL_UP    &trans          &kp F1            &kp F2      &kp F3  &kp F12  &kp F15
+                                           &trans        &mkp LCLK     &kp ENTER       &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT
             >;
         };
     };
