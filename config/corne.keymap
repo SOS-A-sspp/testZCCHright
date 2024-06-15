@@ -47,6 +47,11 @@
             bindings = <&to 3>;
             key-positions = <6 18>;
         };
+
+        bs {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <5 4>;
+        };
     };
 
     macros {
