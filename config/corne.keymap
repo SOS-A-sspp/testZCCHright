@@ -137,10 +137,10 @@
 
         layer_4 {
             bindings = <
-&kp ESC    &kp LC(LEFT_ARROW)  &kp UP    &kp LC(RIGHT_ARROW)  &kp K             &kp PG_UP           &to 0                 &trans            &trans      &trans  &trans  &trans
-&trans     &kp LEFT_ARROW      &kp DOWN  &kp RIGHT            &kp J             &kp PG_DN           &trans                &trans            &trans      &trans  &trans  &trans
-&kp LCTRL  &kp R               &kp T     &kp L                &kp LC(NUMBER_3)  &kp LC(NUMBER_1)    &kp LS(LC(NUMBER_3))  &trans            &trans      &trans  &trans  &trans
-                                         &kp LC(R)            &mkp LCLK         &kp ENTER           &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT
+&kp ESC    &kp LS(LC(LEFT_BRACKET))  &kp UP    &kp LC(LS(RIGHT_BRACKET))  &kp K             &kp PG_UP           &to 0                 &trans            &trans      &trans  &trans  &trans
+&trans     &kp LEFT_ARROW            &kp DOWN  &kp RIGHT                  &kp J             &kp PG_DN           &trans                &trans            &trans      &trans  &trans  &trans
+&kp LCTRL  &kp R                     &kp T     &kp L                      &kp LC(NUMBER_3)  &kp LC(NUMBER_1)    &kp LS(LC(NUMBER_3))  &trans            &trans      &trans  &trans  &trans
+                                               &kp LC(R)                  &mkp LCLK         &kp ENTER           &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT
             >;
         };
     };
