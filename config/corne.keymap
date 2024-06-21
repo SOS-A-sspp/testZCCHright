@@ -54,17 +54,17 @@
         };
 
         layer1 {
-            bindings = <&to 1>;
+            bindings = <&tog 1>;
             key-positions = <6 7>;
         };
 
         layer2 {
-            bindings = <&to 2>;
+            bindings = <&tog 2>;
             key-positions = <6 8>;
         };
 
         layer4 {
-            bindings = <&to 3>;
+            bindings = <&tog 3>;
             key-positions = <6 9>;
         };
 
@@ -97,6 +97,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <2 1>;
         };
+
+        ctrl {
+            bindings = <&sk LCTRL>;
+            key-positions = <16 19>;
+        };
     };
 
     macros {
@@ -127,9 +132,9 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB            &kp Q  &kp W  &kp E         &kp R                 &kp T          &kp Y        &kp U            &kp I            &kp O    &kp P     &kp BACKSPACE
-&mt LEFT_ALT CAPS  &kp A  &kp S  &kp D         &lt 3 F               &kp G          &lt 3 H      &lt 2 J          &kp K            &kp L    &kp SEMI  &mt RIGHT_ALT APOS
-&kp LCTRL          &kp Z  &kp X  &kp C         &lt 2 V               &kp B          &kp N        &lt 3 M          &kp COMMA        &kp DOT  &kp FSLH  &mt LCTRL ENTER
+&kp TAB            &kp Q  &kp W  &kp E         &kp R                 &kp T          &kp Y        &kp U            &kp I            &kp O    &kp P     &kp C_NEXT
+&mt LEFT_ALT CAPS  &kp A  &kp S  &kp D         &lt 3 F               &kp G          &lt 3 H      &lt 2 J          &kp K            &kp L    &kp SEMI  &kp C_PLAY
+&kp LCTRL          &kp Z  &kp X  &kp C         &lt 2 V               &kp B          &kp N        &lt 3 M          &kp COMMA        &kp DOT  &kp FSLH  &kp C_PREV
                                  &kp LEFT_WIN  &mt LEFT_SHIFT SPACE  &lt 1 ENTER    &lt 2 SPACE  &kp RIGHT_SHIFT  &mt LCTRL GLOBE
             >;
         };
