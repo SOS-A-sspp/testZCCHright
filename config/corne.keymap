@@ -15,11 +15,6 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <9 10>;
-        };
-
-        under {
-            bindings = <&kp UNDER>;
             key-positions = <21 22>;
         };
 
@@ -40,7 +35,7 @@
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <10 22>;
+            key-positions = <22 34>;
         };
 
         tolayer0 {
@@ -50,17 +45,57 @@
 
         bs {
             bindings = <&kp BACKSPACE>;
-            key-positions = <5 4>;
+            key-positions = <10 9>;
         };
 
         molayer3 {
-            bindings = <&mo 3>;
+            bindings = <&lt 3 EXCLAMATION>;
             key-positions = <38 39>;
         };
 
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <9 21>;
+        layer1 {
+            bindings = <&to 1>;
+            key-positions = <6 7>;
+        };
+
+        layer2 {
+            bindings = <&to 2>;
+            key-positions = <6 8>;
+        };
+
+        layer4 {
+            bindings = <&to 3>;
+            key-positions = <6 9>;
+        };
+
+        bl0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <5 4>;
+        };
+
+        bl1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <5 3>;
+        };
+
+        bl2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <5 2>;
+        };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <1 13>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 1>;
         };
     };
 
@@ -108,10 +143,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp ESC    &kp HOME   &kp UP_ARROW    &kp END    &kp PLUS              &kp MINUS        &kp BACKSPACE  &kp N7        &kp N8        &kp N9        &kp BACKSPACE  &kp DEL
-&trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp KP_ASTERISK       &kp KP_DIVIDE    &kp TILDE      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans         &trans
-&kp LCTRL  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)             &kp EQUAL        &kp GRAVE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans         &kp ENTER
-                                      &kp LGUI   &mt LEFT_SHIFT SPACE  &kp ENTER        &mkp LCLK      &mkp RCLK     &kp NUMBER_0
+&kp ESC    &kp HOME   &kp UP_ARROW    &kp END    &kp PLUS                    &kp MINUS        &kp LS(SEMICOLON)  &kp N7        &kp N8        &kp N9        &kp NUMBER_0    &kp DEL
+&trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &mt LEFT_SHIFT KP_ASTERISK  &kp KP_DIVIDE    &kp RIGHT_BRACKET  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp APOSTROPHE  &trans
+&kp LCTRL  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)                   &kp EQUAL        &kp LEFT_BRACKET   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE       &kp ENTER
+                                      &kp LGUI   &mt LEFT_SHIFT SPACE        &kp ENTER        &mkp LCLK          &mkp RCLK     &kp NUMBER_0
             >;
         };
 
