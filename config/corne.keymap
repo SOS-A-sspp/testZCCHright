@@ -133,8 +133,8 @@
             display-name = "Base";
             bindings = <
 &trans  &kp Q  &kp W  &kp E         &kp R           &kp T          &kp Y        &kp U                 &kp I            &kp O    &kp P          &kp C_NEXT
-&trans  &kp A  &kp S  &kp D         &lt 3 F         &kp G          &kp H        &lt 2 J               &kp K            &kp L    &kp BACKSPACE  &kp C_PLAY
-&trans  &kp Z  &kp X  &kp C         &lt 2 V         &kp B          &kp N        &lt 3 M               &kp COMMA        &kp DOT  &kp FSLH       &kp C_PREV
+&trans  &kp A  &kp S  &kp D         &kp F           &kp G          &kp H        &kp J                 &kp K            &kp L    &kp BACKSPACE  &kp C_PLAY
+&trans  &kp Z  &kp X  &kp C         &kp V           &kp B          &kp N        &kp M                 &kp COMMA        &kp DOT  &kp FSLH       &kp C_PREV
                       &kp LEFT_WIN  &sk LEFT_SHIFT  &lt 1 SPACE    &lt 2 ENTER  &mt RIGHT_SHIFT APOS  &mt LCTRL GLOBE
             >;
         };
@@ -148,9 +148,9 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp HOME   &kp UP_ARROW    &kp END    &kp PLUS                    &kp MINUS        &kp LS(SEMICOLON)  &kp N7                   &kp N8        &kp N9        &kp SQT    &trans
-&trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &mt LEFT_SHIFT KP_ASTERISK  &kp KP_DIVIDE    &kp RIGHT_BRACKET  &mt NUMBER_4 LEFT_SHIFT  &kp NUMBER_5  &kp NUMBER_6  &kp DEL    &trans
-&trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)                   &kp EQUAL        &kp LEFT_BRACKET   &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE  &trans
+&trans  &kp HOME   &kp UP_ARROW    &kp END    &kp PLUS                    &kp MINUS        &kp LS(SEMICOLON)  &kp N7                   &kp N8        &kp N9        &kp GRAVE      &trans
+&trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &mt LEFT_SHIFT KP_ASTERISK  &kp KP_DIVIDE    &kp RIGHT_BRACKET  &mt NUMBER_4 LEFT_SHIFT  &kp NUMBER_5  &kp NUMBER_6  &kp DEL        &trans
+&trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)                   &kp EQUAL        &kp LEFT_BRACKET   &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &trans
                                    &kp LGUI   &mt LEFT_SHIFT SPACE        &kp ENTER        &mkp LCLK          &mkp RCLK                &kp NUMBER_0
             >;
         };
