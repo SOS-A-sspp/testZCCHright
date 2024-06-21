@@ -35,7 +35,7 @@
 
         bkslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <9 22>;
+            key-positions = <34 21>;
         };
 
         equal {
@@ -43,8 +43,8 @@
             key-positions = <10 22>;
         };
 
-        tolayer3 {
-            bindings = <&to 3>;
+        tolayer0 {
+            bindings = <&to 0>;
             key-positions = <6 18>;
         };
 
@@ -56,6 +56,11 @@
         molayer3 {
             bindings = <&mo 3>;
             key-positions = <38 39>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <9 21>;
         };
     };
 
@@ -103,9 +108,9 @@
 
             display-name = "Lower";
             bindings = <
-&kp ESC    &kp HOME   &kp UP_ARROW    &kp END    &kp PLUS              &kp MINUS        &kp BACKSPACE  &kp N7        &kp N8        &kp N9        &kp N0  &kp DEL
-&trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp KP_ASTERISK       &kp KP_DIVIDE    &kp TILDE      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
-&kp LCTRL  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)             &kp EQUAL        &kp GRAVE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp ENTER
+&kp ESC    &kp HOME   &kp UP_ARROW    &kp END    &kp PLUS              &kp MINUS        &kp BACKSPACE  &kp N7        &kp N8        &kp N9        &kp BACKSPACE  &kp DEL
+&trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &kp KP_ASTERISK       &kp KP_DIVIDE    &kp TILDE      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans         &trans
+&kp LCTRL  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)             &kp EQUAL        &kp GRAVE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans         &kp ENTER
                                       &kp LGUI   &mt LEFT_SHIFT SPACE  &kp ENTER        &mkp LCLK      &mkp RCLK     &kp NUMBER_0
             >;
         };
