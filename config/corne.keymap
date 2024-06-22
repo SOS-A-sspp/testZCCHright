@@ -148,7 +148,7 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &trans     &kp UP_ARROW    &trans     &kp PLUS                    &kp MINUS        &kp LS(SEMICOLON)  &kp N7                   &kp N8        &kp N9        &kp GRAVE      &trans
+&trans  &trans     &kp UP_ARROW    &trans     &kp PLUS                    &kp MINUS        &kp SEMICOLON      &kp N7                   &kp N8        &kp N9        &kp GRAVE      &trans
 &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &mt LEFT_SHIFT KP_ASTERISK  &kp KP_DIVIDE    &kp RIGHT_BRACKET  &mt NUMBER_4 LEFT_SHIFT  &kp NUMBER_5  &kp NUMBER_6  &kp DEL        &trans
 &trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)                   &kp EQUAL        &kp LEFT_BRACKET   &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &trans
                                    &kp LGUI   &mt LEFT_SHIFT SPACE        &kp ENTER        &mkp LCLK          &mkp RCLK                &kp NUMBER_0
@@ -164,10 +164,10 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &kp HOME  &kp UP_ARROW  &kp END     &kp K      &kp PG_UP    &trans   &trans          &trans          &trans     &trans  &trans
-&trans  &kp LEFT  &kp DOWN      &kp RIGHT   &kp J      &kp PG_DN    &trans   &kp LANGUAGE_4  &kp LANGUAGE_5  &trans     &trans  &trans
-&trans  &kp R     &kp T         &kp L       &GN        &GH          &trans   &kp LANGUAGE_1  &kp LANGUAGE_2  &kp LANG3  &trans  &trans
-                                &kp PERIOD  &mkp LCLK  &kp ENTER    &kp RET  &kp LANGUAGE_2  &kp LA(GRAVE)
+&trans  &kp HOME  &kp UP_ARROW  &kp END     &kp K      &kp PG_UP    &kp LC(NUMBER_1)  &kp LC(LS(TAB))  &kp LC(TAB)     &trans     &kp LC(W)  &trans
+&trans  &kp LEFT  &kp DOWN      &kp RIGHT   &kp J      &kp PG_DN    &trans            &kp LANGUAGE_4   &kp LANGUAGE_5  &trans     &trans     &trans
+&trans  &kp R     &kp T         &kp L       &GN        &GH          &trans            &kp LANGUAGE_1   &kp LANGUAGE_2  &kp LANG3  &trans     &trans
+                                &kp PERIOD  &mkp LCLK  &kp ENTER    &kp RET           &kp LANGUAGE_2   &kp LA(GRAVE)
             >;
         };
 
