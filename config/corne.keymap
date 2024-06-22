@@ -148,7 +148,7 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp HOME   &kp UP_ARROW    &kp END    &kp PLUS                    &kp MINUS        &kp LS(SEMICOLON)  &kp N7                   &kp N8        &kp N9        &kp GRAVE      &trans
+&trans  &trans     &kp UP_ARROW    &trans     &kp PLUS                    &kp MINUS        &kp LS(SEMICOLON)  &kp N7                   &kp N8        &kp N9        &kp GRAVE      &trans
 &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &mt LEFT_SHIFT KP_ASTERISK  &kp KP_DIVIDE    &kp RIGHT_BRACKET  &mt NUMBER_4 LEFT_SHIFT  &kp NUMBER_5  &kp NUMBER_6  &kp DEL        &trans
 &trans  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)                   &kp EQUAL        &kp LEFT_BRACKET   &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &trans
                                    &kp LGUI   &mt LEFT_SHIFT SPACE        &kp ENTER        &mkp LCLK          &mkp RCLK                &kp NUMBER_0
